@@ -1,0 +1,91 @@
+@import url(reset.css);
+.about{
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+}
+.intro,.one,.two,.three{
+	color: white;
+	line-height: 100px;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+} 
+.intro{
+	display: flex;
+	flex-grow: 3;
+}
+.picture{
+	height: 300px;
+	background-image: url(https://www.reviewjournal.com/wp-content/uploads/2019/02/11821114_web1_GettyImages-1081660286.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 300px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.oscar,.critics{	
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items: center;
+}
+.actress, .opinion{
+	height: 200px;
+	width: 800px;
+	border: 2px solid grey;
+	border-radius: 20px;
+	box-shadow: 5px 0px 2px grey;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+	
+.stars{
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.star1, .star2, .star3{
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 20px;
+	color: green;
+}
+
+.star1{
+	background-image: url(https://m.media-amazon.com/images/M/MV5BMTU1MDM5NjczOF5BMl5BanBnXkFtZTcwOTY2MDE4OA@@._V1_.jpg);
+}
+.star2{
+	background-image: url(https://pbs.twimg.com/profile_images/1070714566559047680/I9pCzlX2_400x400.jpg);
+}
+.star3{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5f/Portrait_Photograph_of_Haley_Lu_Richardson.jpg);
+}
+.copyright{
+	height: 100px;
+	background-color: blue;
+	line-height: 100px;
+	color: white;
+	font-size: 15px;
+}
+	
+
+
